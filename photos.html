@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Фото Маруси</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <div class="photoclass">
+      <div class="title theme">
+        <h1 class="maintitle">Посмотрите, какая я красивая!</h1>
+      </div>
+      <div class="media">
+        <div class="photoline">
+          <img src="1.jpg" alt="" />
+          <img src="2.jpg" alt="" />
+          <img src="3.jpg" alt="" />
+        </div>
+        <div class="photoline">
+          <img src="4.jpg" alt="" />
+          <img src="5.jpg" alt="" />
+          <img src="6.jpg" alt="" />
+        </div>
+        <div class="photoline">
+          <img src="7.jpg" alt="" />
+          <img src="8.jpg" alt="" />
+          <img src="9.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="letter">
+      <div class="sending">
+        <div class="title">
+          <h1>Напишите мне комплимент!</h1>
+        </div>
+
+        <form action="/" class="forms">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="введите Ваше имя..." />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="введите email..." />
+          </div>
+
+          <div class="form-group">
+            <label class="question">Я Вам понравилась?</label>
+
+            <input
+              class="radio"
+              type="radio"
+              name="YesNo"
+              id="yes"
+              value="Like"
+              checked
+            />
+            <label class="answer" for="yes">Да! </label>
+
+            <input
+              class="radio"
+              type="radio"
+              name="YesNo"
+              id="no"
+              value="Dislike"
+            />
+            <label class="answer" for="no">Нет...</label>
+          </div>
+          <div class="form-group">
+            <label class="question" for="text"
+              >Что бы Вы хотели мне написать?</label
+            >
+            <textarea
+              name=""
+              id="text"
+              cols="30"
+              rows="1"
+              placeholder="введите текст сообщения..."
+            ></textarea>
+          </div>
+          <input class="buttonsend" type="submit" value="Отправить Марусе" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
